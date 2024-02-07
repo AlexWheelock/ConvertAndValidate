@@ -37,7 +37,7 @@ Module ConvertAndValidate
     'make this work
 
 
-    Function ConversionValid(convertThisString As String, toThisInteger As Integer) As Boolean
+    Function ConversionValid(convertThisString As String, ByRef toThisInteger As Integer) As Boolean
 
         Dim status As Boolean
 
