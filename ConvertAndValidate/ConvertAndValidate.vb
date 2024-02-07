@@ -20,7 +20,7 @@ Module ConvertAndValidate
             usernResponse = Console.ReadLine()
 
             If ConversionValid(usernResponse, aValidNumber) = True Then
-
+                aValidNumber = CInt(usernResponse)
                 Console.WriteLine($"{usernResponse} converted successfully to {aValidNumber}!")
 
             Else
